@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MyWork from './components/MyWork';
+import AboutMe from './components/AboutMe';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+constructor(props) {
+  super(props);
+  this.state = ({
+    showPage: 'myWork'
+  })
 }
+
+handleSwitchShowPage = target => {
+  this.setState({
+    showPage: target
+  })
+}
+
+  render(){
+    return (
+      <>
+        <header> <Header showPage={this.state.showPage}
+                         handleSwitchShowPage={this.handleSwitchShowPage}/> </header>
+
+        <div> {this.state.showPage === "myWork" ? <MyWork /> : <AboutMe />}
+        <footer> <Footer /> </footer>
+        </div>
+      </>
+    )
+  }
+}
+
+
+
 
 export default App;
