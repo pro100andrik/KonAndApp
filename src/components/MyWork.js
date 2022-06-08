@@ -27,7 +27,7 @@ function WorkExample (props, index) {
 
 
 const WORKS = [
-  {title: "Pomodoro Clock", img: pomodoroScr, link: "/PomodoroClockApp/index.html"},
+  {title: "Pomodoro Clock", img: pomodoroScr, link: "/PomodoroApp/index.html"},
   {title: "Notes", img: notesScr, link: "/QuickNotesApp/index.html"},
   {title: "Countdown", img: contdownScr, link: "/CountDownApp/index.html"},
   {title: "Timer", img: stopWatchScr, link: "/TimerApp/index.html"},
