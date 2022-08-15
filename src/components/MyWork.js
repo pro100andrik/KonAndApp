@@ -3,6 +3,9 @@ import notesScr from './WorkScreenshots/Notes.png';
 import contdownScr from './WorkScreenshots/Countdown.png';
 import stopWatchScr from './WorkScreenshots/StopWatch.png';
 import toDoScr from './WorkScreenshots/ToDo.png';
+import minesweeperScr from './WorkScreenshots/Minesweeper.png';
+import quizScr from './WorkScreenshots/Quiz.png';
+
 
 
 const MyWork = () => {
@@ -32,6 +35,8 @@ const WORKS = [
   {title: "Countdown", img: contdownScr, link: "/CountDownApp/index.html"},
   {title: "Timer", img: stopWatchScr, link: "/TimerApp/index.html"},
   {title: "To Do List", img: toDoScr, link: "/ToDoapp/index.html"},
+  {title: "Minesweeper", img: minesweeperScr, link: "/Minesweeper/index.html"},
+  {title: "Quiz", img: quizScr, link: "/QuizApp/index.html"},
 
 ]
 
