@@ -5,6 +5,7 @@ import stopWatchScr from './WorkScreenshots/StopWatch.png';
 import toDoScr from './WorkScreenshots/ToDo.png';
 import minesweeperScr from './WorkScreenshots/Minesweeper.png';
 import quizScr from './WorkScreenshots/Quiz.png';
+import memoryCardsScr from './WorkScreenshots/MemoryCards.png';
 
 
 
@@ -37,6 +38,7 @@ const WORKS = [
   {title: "To Do List", img: toDoScr, link: "/ToDoapp/index.html"},
   {title: "Minesweeper", img: minesweeperScr, link: "/Minesweeper/index.html"},
   {title: "Quiz", img: quizScr, link: "/QuizApp/index.html"},
+  {title: "Memory Cards", img: memoryCardsScr, link: "/MemoryCards/index.html"},
 
 ]
 
